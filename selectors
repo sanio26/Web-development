@@ -1,0 +1,67 @@
+-----------------------------------------------Index.html--------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my css project</title>
+    <link rel="stylesheet" href="css/style.css">
+ 
+    <style>
+        p{
+            color:rgb(168,18,18)
+        }
+    </style>
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1><h2>Sanio's Website</h2></h1>
+    </header>
+    <main>
+        <article>
+            <h2>Earn money</h2>
+            <p>Technical course to develop your skills and earn money.</p>
+        </article>
+        <article>
+        <h2>Grow Money</h2>
+        <p id="second" class="gray">Investment related contents like share market,investing,real estate investing etc. to <span class="highlight"> grow </span> Your earned money</p>
+        </article>
+        <article>
+            <h2>Give Money</h2>
+            <p class="gray">Contents related to how you can donate your money and help others.Identifying good<span class="highlight">Trusts or ways</span>to donate the hard earned money for the benefit of the society.Earn money,grow money and give money.</p>
+
+        </article>
+    </main>
+    
+</body>
+</html>
+ -----------------------------------------------CSS----------------------------------------------------------------
+ body{
+    font-size: 24px;
+    border: 2px  solid black;
+
+}
+button,input,textarea{
+    font:inherit;
+}
+h1,h2{
+    color:green;
+}
+.gray{
+    color:gray;
+    font-style:italic;
+}
+p{
+    color:blue;
+}
+p{
+    color:red;
+}
+
+.highlight{
+    background-color:red;
+
+}
+
+ 
